@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+
+
+
+<title>portfolio</title>
+</head>
+<body>
+    <header class="profile container">
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+    
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__perfil">
+                        <img src="assests/profile.jpg" alt="">
+                    </div>
+                </div>
+    
+                <h2 class="profile__name">Ankit Kumar</h2>
+                <h3 class="profile__profession">Web developer</h3>
+    
+                <ul class="profile__social">
+                    <a href="https://www.instagram.com/i_am_ankit_thakur/" target="_blank" class="profile__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ankit-kumar-089939208" target="_blank" class="profile__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                    <a href="https://github.com/ankit238" target="_blank" class="profile__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </ul>
+            </div>
+    
+    
+            <div class="profile__buttons">
+                <a download="" href="assests/myresume.pdf" class="button">
+                    Download CV <i class="ri-download-line"></i>
+                </a>
+    
+                <div class="profile__buttons-small">
+                    <a href="https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!" target="_blank"
+                        class="button button__small button__gray">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" class="button button__small button__gray">
+                        <i class="ri-messenger-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="filters container">
+            <!--=============== FILTERS TABS ===============-->
+            <ul class="filters__content">
+                <button class="filters__button filter-tab-active" data-target="#projects">
+                    Projects
+                </button>
+                <button class="filters__button" data-target="#skills">
+                    Skills
+                </button>
+            </ul>
+    
+            <div class="filters__sections">
+                <!--=============== PROJECTS ===============-->
+                <div class="projects__content grid filters__active" data-content id="projects">
+                    <article class="projects__card">
+                        <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+                        <img src="assests/travel_app.png" alt="" class="projects__img">
+    
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">Travel Agency Site</h3>
+                                <a href="https://app.netlify.com/teams/ankit238/builds/6298edd652f11d092225c23a" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+    
+                    <article class="projects__card">
+                        <img src="assests/crytpohunter.png" alt="" class="projects__img">
+    
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">Cryptohunter</h3>
+                                <a href="https://elated-nobel-52733c.netlify.app/" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+    
+                    <article class="projects__card">
+                        <img src="https://cdn.dribbble.com/users/606683/screenshots/3978222/attachments/909640/news_app_concept_-_full.png" alt="" class="projects__img">
+    
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">app</span>
+                                <h3 class="projects__title">news app</h3>
+                                <a href="https://github.com/ankit238/React-Native_Inshort_clone" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+    
+                    <article class="projects__card">
+                        <img src="assests/notes_app.png" alt="" class="projects__img">
+    
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Site</span>
+                                <h3 class="projects__title">Notes_App</h3>
+                                <a href="https://628c62838fe6362ef989b151--gorgeous-squirrel-6d15c9.netlify.app/" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+    
+                    <article class="projects__card">
+                        <img src="assests/todo_list.png" alt="" class="projects__img">
+    
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">live site</span>
+                                <h3 class="projects__title">Todo List </h3>
+                                <a href="https://627d59ad52cb9c13ef589fdc--moonlit-crostata-d9117a.netlify.app/" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+    
+                <!--=============== SKILLS ===============-->
+            <div class="skills__content grid" data-content id="skills">
+                <div class="skills__area">
+                    <h3 class="skills__title">Frontend Developer</h3>
+            
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+            
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+            
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+            
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+            
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+            
+                                <div>
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+            
+                                <div>
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+            
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+            
+                                <div>
+                                    <h3 class="skills__name">Bootstrap</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+            
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+            
+                                <div>
+                                    <h3 class="skills__name">Git</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+                            
+                                <div>
+                                    <h3 class="skills__name">React Native</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="skills__area">
+                    <h3 class="skills__title">Backend Developer</h3>
+            
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            
+            
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+            
+                                <div>
+                                    <h3 class="skills__name">MySQL</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                    
+                                        <div>
+                                            <h3 class="skills__name">MongoDB</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+            
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+            
+                                <div>
+                                    <h3 class="skills__name">Firebase</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+            
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+            
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+            
+                                <div>
+                                    <h3 class="skills__name">Node Js</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+                            
+                                <div>
+                                    <h3 class="skills__name">Express Js</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!--contact section-->
+
+  
+
+ <div class="formbold-main-wrapper">
+
+  
+
+    <div class="formbold-form-wrapper">
+        <form id="form">
+
+            <h3 style="margin-bottom: 50px; font-size: 30px;">Contact Me </h3>
+            <div class="formbold-mb-5">
+                <label for="name" class="formbold-form-label"> Full Name </label>
+                <input type="text" name="from_name" id="from_name" placeholder="Full Name" class="formbold-form-input" />
+            </div>
+
+            <div class="formbold-mb-5">
+                <label for="email" class="formbold-form-label"> Email Address </label>
+                <input type="email" name="email_id" id="email_id" placeholder="Enter your email"
+                    class="formbold-form-input" />
+            </div>
+
+           
+
+            <div class="formbold-mb-5">
+                <label for="message" class="formbold-form-label"> Message </label>
+                <textarea rows="6" name="message" id="message" placeholder="Type your message"
+                    class="formbold-form-input"></textarea>
+            </div>
+
+            <div>
+                <button class="formbold-btn" id="button" 
+                value="Send Email"
+                onclick="SendMail()"
+            
+                 >Submit</button>
+            </div>
+        </form>
+    </div>
+</div> 
+
+
+
+
+
+
+    <footer class="footer container">
+        <span class="footer__copy">
+            &#169; Ankit. All rigths reserved
+        </span>
+    </footer>
+        <script src="js/scrollreveal.min.js"></script>
+
+            <script src="js/main.js"></script>
+            <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+            <script type="text/javascript">
+               
+                emailjs.init('user_hI8UkIkxZirvAigxDlafT');
+           
+            </script>
+
+
+</body>
+</html>
